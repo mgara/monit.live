@@ -1,0 +1,33 @@
+{
+  "name": "monit-live-api",
+  "version": "1.0.0",
+  "description": "Yet another implementation of the Monit collector in Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node start.js",
+    "devel": "export NODE_TLS_REJECT_UNAUTHORIZED=0;export NODE_ENV=dev;nodemon start.js",
+    "test": "mocha --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgara/monit.live.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgara/monit.live/issues"
+  },
+  "homepage": "https://github.com/mgara/monit.live#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "mongoose": "^5.0.4",
+    "nconf": "^0.10.0",
+    "restify": "^6.3.4",
+    "restify-cors-middleware": "^1.1.0",
+    "restify-jwt": "^0.4.0",
+    "restify-url-semver": "^1.1.1",
+    "winston": "^2.4.0",
+    "winston-daily-rotate-file": "^1.7.2",
+    "xml2js": "^0.4.19"
+  }
+}

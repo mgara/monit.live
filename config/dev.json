@@ -1,0 +1,21 @@
+{
+    "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2xpdmVzY2FsZS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NTkxY2FkYmRhODVkYmUwMTAwNDMwMzU3IiwiYXVkIjoiNnFLU0NOMHA3Q2RQNDVpOG1iSlE0cDZHOHYyZXdXYXciLCJpYXQiOjE0OTUxMTcxNjl9.zsx9XBHPpwMRlY6HthAIY0IbRxtNYsrydDKAxxB8NMY",
+    "log_level": "debug",
+    "server_port": "8081",
+    "base_url": "https://dashboard.dev.monit.live",
+    "api_url": "https://api.dev.monit.live/api/v1",
+    "hash_id": "BbZdqpR79KcBX5kQptJKSDbZmLwX4FxW2B7jpRbaTyRqwfFrrMvLFaEwEPkHLaSW",
+    "sentry": {
+        "dsn": ""
+    },
+    "jwtcheck": {
+        "secret": "qFYhJUWvvhLiMbTnVhNUlZpQpqA_NiYSegKi3WkOP6tJQQj54E-ruOxKv4Bn1K8x",
+        "audience": "6qKSCN0p7CdP45i8mbJQ4p6G8v2ewWaw"
+    },
+    "database": {
+        "replicaset": null,
+        "username": null,
+        "password": null,
+        "uri": "mongodb://localhost/monit-live"
+    }
+}
